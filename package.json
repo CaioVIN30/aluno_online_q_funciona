@@ -1,0 +1,24 @@
+{
+  "name": "aluno_online_q_funciona",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/CaioVIN30/aluno_online_q_funciona",
+  "author": "CaioVIN30 <101299349+CaioVIN30@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev.server": "yarn ts-node-dev --respawn --ignore-watch node_modules src/server.ts",
+    "typeorm": "yarn ts-node-dev ./node_modules/typeorm/cli.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "typeorm": "0.2.37",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.10",
+    "typescript": "^5.4.5"
+  }
+}
